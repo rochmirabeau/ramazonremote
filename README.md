@@ -1,7 +1,7 @@
 # ramazonremote
-roch amazon remote failed
 
 #Roch Amazon App
+The roch amazon remote upload failed edition
 
 ##Included Files:
 ##Functions:
@@ -23,6 +23,6 @@ The customer view allows the user to view the inventory and purchase an amount o
 The manager view gives more control of the database via the command line.  The user is prompted with options ranging from checking and adding inventory, to adding completely new products.  After answering all of the prompts, the app will collect the data and execute a SQL command to update the database accordingly, see some of the gifs attached for examples.
 
 ###To Do:
---*A supervisor view is yet to be added, this view would create a new table allowing the user to view profit potential.  
---*Error handling for input types will be implemented as well, preventing users from entering letters where numbers are expected or including dollar signs where they are not required. 
---*Proper handling of application exit
+..* A supervisor view is yet to be added, this view would create a new table allowing the user to view profit potential.  
+..* Error handling for input types will be implemented as well, preventing users from entering letters where numbers are expected or including dollar signs where they are not required. 
+..* Proper handling of application exit
