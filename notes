@@ -1,0 +1,70 @@
+table - products
+	item_id PRIMARY KEY
+	product_name VARCHAR
+	department_name VARCHAR
+	price FLOAT
+	stock_quantity INT
+
+
+stuff I need to sell
+	'electronics'
+		'Apogee Duet Soundcard'	$90	2
+		'Behringer ub1204 Soundcard'	$60	1
+		'Broken 1/4 inch cables' $2.99	7
+		'Novation Launchpad Midi controller'	$35	2
+
+	'cars'
+		'honda insight' $4000.99 1
+		'bmw 318ti' $1500.34 1
+
+	'clothes'
+		'H&M Pea Coat Size M'	$40	1	
+		'Nordstrom Rack Blazer Size 40r'	$90.34	1
+		'Orisue Initial Season T Shirts'	$8.79	6
+		'Merino Wool Joggers'	$40	1
+	
+
+##PASTE HERE
+
+item_id,product_name,department_name,price,stock_quantity
+1,Apogee Duet Soundcard,electronics,90,2
+2,Behringer ub1204 Soundcard,electronics,60,1
+3,Broken 1/4 inch cables,electronics,$2.99,7
+4,Novation Launchpad Midi controller,electronics,$35,2
+5,honda insight,cars,$4000.99,1
+6,bmw 318ti,cars,$1500.34,1
+7,H&M Pea Coat Size M,clothes,$40,1,
+8,Nordstrom Rack Blazer Size 40r,clothes,$90.34,1
+9,Orisue Initial Season T Shirts,clothes,$8.79,6
+10,Merino Wool Joggers,clothes,$40,1
+
+
+
+TODO:
+
+crud functions
+
+js get prices from database
+	got prices
+check if quantity is available
+	got check availablility
+	got sell amounts
+
+LEFT
+	UPDATE DATABASE
+done
+
+import
+
+js update quantity to db
+		
+markdown
+
+___
+
+
+crud has the following functions
+	check, takes string, searches for it in database, returns object[price][quantity]
+	update, curry'd, takes (item, quantity), updates db
+	sell, curry'd, takes number and price, returns product
+	isAvailable, curry'd takes available amount, then takes requested amount, returns t/f 
