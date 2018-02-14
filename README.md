@@ -3,9 +3,6 @@
 # Roch Amazon App
 The roch amazon remote upload failed edition
 
-## Included Files:
-## Functions:
-## To Do:
 ## Example Gifs:
 
 ### Included Files:
